@@ -1,0 +1,18 @@
+Package: myutils
+Type: Package
+Title: Handy Utilities for Colors and ID Formatting
+Version: 0.1.0
+Authors@R: 
+    person(given = "Your",
+           family = "Name",
+           email = "you@example.com",
+           role = c("aut", "cre"))
+Description: Provides two utilities: a curated 10-color palette split into
+    primary and secondary sets, and a function to zero-pad integer IDs to 18 digits.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: R (>= 3.5.0)
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
